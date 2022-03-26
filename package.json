@@ -1,0 +1,30 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devstart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salammustafa728/chat-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/salammustafa728/chat-app/issues"
+  },
+  "homepage": "https://github.com/salammustafa728/chat-app#readme",
+  "dependencies": {
+    "@socket.io/admin-ui": "^0.2.0",
+    "cors": "^2.8.5",
+    "socket.io": "^4.4.1",
+    "socket.io-client": "^4.4.1"
+  },
+  "devDependencies": {
+    "snowpack": "^3.8.8"
+  }
+}
