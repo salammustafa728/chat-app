@@ -5,6 +5,8 @@ its same as this video [Learn Socket.io In 30 Minutes](https://www.youtube.com/w
 And it use socket.io to connect betwwen clients that connect to the server. 
 And there's a namespace user to connect an auth middleware.
 
+* [PR-link](https://github.com/salammustafa728/chat-app/pull/1)
+
 The backages and dependencies I used:
 
 * socket.io
