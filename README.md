@@ -18,11 +18,11 @@ The backages and dependencies I used:
 
 To run the code you should install the dependencies then
 
-for the client side run **npm run devstart**
+for the client side run **npm run start**
 
 ![client](./clients/images/run-client.png)
 
-for the server run **npm run devstart**
+for the server run **npm run devstart or nodemon server.js**
 
 ![server](./clients/images/server-run.png)
 
