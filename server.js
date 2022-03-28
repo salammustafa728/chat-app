@@ -9,7 +9,9 @@ console.log('working');
 
 const userIn = io.of('/user');
 
-
+userIn.on('connection',socket=>{
+    console.log('connected to namespace user  '+socket.username);
+})
 // if you want to use token and auth with socket to get user info using that token
 userIn.use((socket,next)=>{
     if (socket.handshake.auth.token) {
@@ -23,9 +25,7 @@ userIn.use((socket,next)=>{
 function getUsernameFromToken(token){
 return token
 }
-userIn.on('connection',socket=>{
-    console.log('connected to namespace user');
-})
+
 
 //run every time the client connect to server
 io.on('connection',socket=>{
